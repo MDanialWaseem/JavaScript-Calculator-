@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Calculator</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+      <link href="https://fonts.googleapis.comcss2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script type="text/javascript" src="index.js"></script>
+   </head>
+   <script></script>
+   <body>
+      <div class="container">
+         <h1 style="text-align: center; font-family: 'Quicksand', sans-serif; margin-top: 15px;">Simple Javascript Calculator</h1>
+         <hr>
+         <div class="col-md-4 offset-md-4 answerWalaDiv" >
+            <input type="text" class="answerInput" id="answerInput" >
+         </div>
+         <div class="col-md-4 offset-md-4 buttonWalaDiv">
+            <div class="btn-group">
+               <button class="button color-button color-button2" id="clearDisplay" value="C" onClick="clearDisplay()">C</button>
+               <button class="button color-button" value="Sin" onclick="sinFunction()">Sin</button>
+               <button class="button color-button" value="Cos" onclick="cosFucntion()">Cos</button>
+               <button class="button color-button" value="Tan"  onclick="tanFunction()">Tan</button>
+            </div>
+            <div class="btn-group">
+               <button class="button color-button" id="clearDisplay" value="log" onClick="logFunction()">ln</button>
+               <button class="button color-button" value="sqrt" onclick="sqrtFunction()">&#8730;</button>
+               <button class="button color-button" value="%" onclick="buttonFire('%')" >%</button>
+               <button class="button color-button" value="/"  onclick="buttonFire('/')" >/</button>
+            </div>
+            <div class="btn-group">
+               <button class="button white-button" value="7"  onclick="buttonFire('7')" >7</button>
+               <button class="button white-button" value="8"  onclick="buttonFire('8')"  >8</button>
+               <button class="button white-button" value="9"  onclick="buttonFire('9')"  >9</button>
+               <button class="button color-button" value="*"  onclick="buttonFire('*')"  >x</button>
+            </div>
+            <div class="btn-group">
+               <button class="button white-button" value="4"  onclick="buttonFire('4')">4</button>
+               <button class="button white-button" value="5"  onclick="buttonFire('5')">5</button>
+               <button class="button white-button" value="6"  onclick="buttonFire('6')">6</button>
+               <button class="button color-button" value="-"  onclick="buttonFire('-')">-</button>
+            </div>
+            <div class="btn-group">
+               <button class="button white-button" value="1"  onclick="buttonFire('1')">1</button>
+               <button class="button white-button" value="2"  onclick="buttonFire('2')">2</button>
+               <button class="button white-button" value="3"  onclick="buttonFire('3')">3</button>
+               <button class="button color-button" value="+"  onclick="buttonFire('+')">+</button>
+            </div>
+            <div class="btn-group">
+               <button class="button white-button" value="00"  onclick="buttonFire('00')">00</button>
+               <button class="button white-button" value="0"  onclick="buttonFire('0')">0</button>
+               <button class="button white-button" value="."  onclick="buttonFire('.')">.</button>
+               <button class="button color-button2" value="=" onclick="solve()">=</button>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,82 @@
+body {
+  background-color: #ededed;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+.answerInput {
+  width: 370px;
+  padding: 44px 15px;
+  background-color: #9fa4c4;
+  background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #eee;
+  color: black;
+  font-size: 35px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.answerWalaDiv {
+  padding-left: 0px !important;
+  border: 1px solid black;
+}
+
+.buttonWalaDiv {
+  padding-left: 0px !important;
+  border: 1px solid black;
+}
+
+.button {
+  padding: 16px 16px;
+  font-size: 24px;
+  width: 92px;
+  border: none;
+}
+
+.btn-group .button {
+  padding: 22px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  cursor: pointer;
+  color: black;
+  /*font-weight: bold;*/
+}
+
+.white-button {
+  background-color: white;
+}
+
+.color-button {
+  background-color: rgb(220, 220, 220);
+  color: white;
+}
+
+.color-button2 {
+  background-color: #f9d29d;
+  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none !important;
+  /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #f9d29d;
+  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+}
